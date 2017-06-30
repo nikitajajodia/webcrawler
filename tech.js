@@ -15,7 +15,7 @@ request('https://nikitajajodia.com/', function (error, response, html) {
       	'url': url.attr('href')
       })
     });
-    jsonfile.writeFile('./data.json', data, {spaces: 2}, function(err) {
+    jsonfile.writeFile('./tech.json', data, {spaces: 2}, function(err) {
       console.error("error ", err);
     });
   }
